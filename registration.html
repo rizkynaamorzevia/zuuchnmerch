@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration | ZuuChnMerch</title>
+<link rel="icon" href="zukashoplogo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Registration</h1>
+<p>Daftar jadi member atau reseller ZuuChnMerch. Data akan dikirim lewat WhatsApp.</p>
+<br>
+<form class="form" onsubmit="daftarWA(event)">
+  <input type="text" name="nama" placeholder="Nama lengkap" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="tel" name="hp" placeholder="No HP / WhatsApp" required>
+  <input type="text" name="kota" placeholder="Kota" required>
+  <select name="jenis">
+    <option>Member</option>
+    <option>Reseller</option>
+  </select>
+  <button class="btn" type="submit">Daftar</button>
+</form>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* header bergambar */
+header{background:#1e1a24 url(header.jpg) center/cover;border-bottom:3px solid var(--ungu)}
+.nav{padding:12px 20px}
+.nav img{height:64px}
+.menu{gap:16px;align-items:center}
+.menu a{color:#fff}
+.menu a:hover,.menu a.aktif{color:var(--ungu-muda)}
+#tombol-menu{color:#fff}
+
+/* dropdown */
+.dd{position:relative}
+.dd-isi{display:none;position:absolute;top:100%;left:-10px;min-width:160px;background:var(--hitam);border:2px solid var(--ungu);border-radius:8px;padding:6px 0;z-index:30}
+.dd:hover .dd-isi,.dd:focus-within .dd-isi{display:block}
+.dd-isi a{display:block;padding:6px 16px;font-weight:400}
+
+/* teks berjalan */
+.marquee{background:var(--ungu-tua);color:#fff;overflow:hidden;white-space:nowrap;padding:6px 0;font-size:14px}
+.marquee span{display:inline-block;padding-left:100%;animation:jalan 22s linear infinite}
+@keyframes jalan{to{transform:translateX(-100%)}}
+
+/* home + sidebar */
+.dengan-sidebar{max-width:1200px;display:grid;grid-template-columns:1fr 280px;gap:25px;align-items:start}
+.konten{min-width:0}
+.widget{background:#fff;border:2px solid var(--ungu-muda);border-radius:12px;padding:14px;margin-bottom:18px}
+.widget h3{color:var(--ungu-tua);margin-bottom:8px;font-size:1rem}
+.widget iframe{width:100%;aspect-ratio:16/9;border:0;border-radius:8px}
+#jam b{font-size:1.6rem;color:var(--hitam)}
+.pengumuman{background:var(--hitam);color:var(--ungu-muda);padding:14px 18px;border-radius:12px;margin-bottom:10px}
+.kartu h3 a:hover{color:var(--ungu)}
+.kartu p{margin:8px 0;font-size:14px}
+
+/* gallery */
+.galeri{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.galeri img{width:100%;height:180px;object-fit:cover;border-radius:10px;border:2px solid var(--ungu-muda);background:#fff}
+
+/* artikel, form, footer */
+.isi-artikel{max-width:700px}
+.isi-artikel p{margin-bottom:14px}
+.isi-artikel small{color:var(--ungu-tua)}
+.form select{padding:10px;border:2px solid var(--ungu-muda);border-radius:8px;font:inherit;background:#fff}
+.struktur{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.struktur div{background:#fff;border:2px solid var(--ungu-muda);border-radius:10px;padding:12px;text-align:center}
+footer a{color:var(--ungu-muda);text-decoration:underline}
+
+@media(max-width:800px){
+  .dengan-sidebar{grid-template-columns:1fr}
+}
+@media(max-width:700px){
+  .menu{background:var(--hitam);align-items:flex-start}
+  .dd-isi{display:block;position:static;border:0;background:none;padding:0 0 0 14px}
+}
