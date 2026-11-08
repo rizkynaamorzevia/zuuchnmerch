@@ -1,8 +1,8 @@
 // ===== Data produk (ubah di sini) =====
 const produk = [
-  { nama: "Genshin Impact Figure - Venti", harga: 700000, kat: "Figure", foto: "foto/VentiFigure.jpeg" },
-  { nama: "Genshin Impact Figure - Zhongli", harga: 700000, kat: "Figure", foto: "foto/ZhongliFigure.jpeg" },
-  { nama: "Genshin Impact Figure - Ei", harga: 700000, kat: "Figure", foto: "foto/EiFigure.jpeg" },
+  { nama: "Genshin Impact Figure - Venti", harga: 700000, kat: "Figure", foto: "VentiFigure.jpeg" },
+  { nama: "Genshin Impact Figure - Zhongli", harga: 700000, kat: "Figure", foto: "ZhongliFigure.jpeg" },
+  { nama: "Genshin Impact Figure - Ei", harga: 700000, kat: "Figure", foto: "EiFigure.jpeg" },
   { nama: "Genshin Impact Figure - Nahida", harga: 700000, kat: "Figure", foto: "foto/NahidaFigure.jpeg" },
   { nama: "Genshin Impact Figure - Furina", harga: 700000, kat: "Figure", foto: "foto/FurinaFigure.jpeg" },
   { nama: "Genshin Impact Figure - Mavuika", harga: 700000, kat: "Figure", foto: "foto/MavuikaFigure.jpeg" },
